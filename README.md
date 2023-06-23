@@ -1,10 +1,13 @@
-# Novel (Remix)
-
-Original: https://github.com/steven-tey/novel
+# Novel - Remix
 
 <p align="center">
   An open-source Notion-style WYSIWYG editor with AI-powered autocompletions. 
 </p>
+
+## Original Author
+
+- Repository: https://github.com/steven-tey/novel
+- Author: https://steventey.com/
 
 <p align="center">
   <a href="https://news.ycombinator.com/item?id=36360789"><img src="https://img.shields.io/badge/Hacker%20News-255-%23FF6600" alt="Hacker News"></a>
