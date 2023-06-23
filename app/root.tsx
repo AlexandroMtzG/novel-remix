@@ -7,6 +7,7 @@ import { loadRootData, useRootData } from "./utils/data/useRootData";
 import clsx from "clsx";
 import Page404 from "./components/pages/Page404";
 import FloatingLoader from "./components/transitions/FloatingLoader";
+import { Toaster } from "react-hot-toast";
 
 export let links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: styles }];
@@ -95,6 +96,7 @@ export default function App() {
   return (
     <Document>
       <Outlet />
+      <Toaster />
     </Document>
   );
 }

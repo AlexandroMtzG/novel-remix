@@ -5,7 +5,7 @@ import { TiptapExtensions } from "./extensions";
 import useLocalStorage from "../../lib/hooks/use-local-storage";
 import { useDebouncedCallback } from "use-debounce";
 import { useCompletion } from "../../lib/ai/react/useCompletion";
-import { toast } from "sonner";
+import { toast } from "react-hot-toast";
 import DEFAULT_EDITOR_CONTENT from "./default-content";
 
 import { EditorBubbleMenu } from "./components";

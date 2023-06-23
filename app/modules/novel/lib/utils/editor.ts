@@ -1,6 +1,6 @@
 import { EditorView } from "@tiptap/pm/view";
 // import { BlobResult } from "@vercel/blob";
-import { toast } from "sonner";
+import { toast } from "react-hot-toast";
 
 export const handleImageUpload = (file: File, view: EditorView, event: ClipboardEvent | DragEvent | Event) => {
   // check if the file is an image

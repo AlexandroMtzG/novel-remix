@@ -6,7 +6,7 @@ import { useCompletion } from "../../../lib/ai/react/useCompletion";
 import tippy from "tippy.js";
 import { Heading1, Heading2, Heading3, List, ListOrdered, MessageSquarePlus, Text, TextQuote, Image as ImageIcon, Code } from "lucide-react";
 import LoadingCircle from "~/modules/novel/ui/shared/loading-circle";
-import { toast } from "sonner";
+import { toast } from "react-hot-toast";
 // import va from "@vercel/analytics";
 import Magic from "~/modules/novel/ui/shared/magic";
 import { handleImageUpload } from "~/modules/novel/lib/utils/editor";
